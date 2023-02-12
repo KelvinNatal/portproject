@@ -46,10 +46,10 @@ const Banner = () => {
             <Container>
                 <Row classname="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline"> Welcome to my Portfolio </span>
-                        <h1>{`Hi I'm webcoded `}<br/><span className="wrap">{text}</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, optio officia. Minus illum molestiae quibusdam explicabo facere deleniti, quae nam totam debitis, veritatis consequuntur eum adipisci cumque est nihil nobis.</p>
-                        <button onClick={() => console.log('Connect')}>Let's Connect <ArrowRightCircle size={25}/></button>
+                        <span className="tagline"> Bem vindo ao meu Portfolio </span>
+                        <h1>{`Meu Nome é Kelvin Minhas Skills São`}<br/><span className="wrap">{text}</span></h1>
+                        <p>Apaixonado por tecnologia desde o ensino médio, e possuo faculdade de Analise e desenvolvimento de sistemas, atualmente fazendo MBA de Desenvolvimento de Software para aprimorar minhas habilidades.</p>
+                        <a href="https://linkedin.com/in/kelvin-natal-40ba681a1/"><button onClick={() => console.log('Connect')}>Vamos Conectar<ArrowRightCircle size={25}/></button></a>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Headder Img"/>

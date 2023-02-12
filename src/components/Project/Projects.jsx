@@ -2,9 +2,9 @@ import ProjectCard from './ProjectCard';
 import { Container, Row, Col, Tab } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 
-import projImg1 from "../../assets/img/project-img1.png";
-import projImg2 from "../../assets/img/project-img2.png";
-import projImg3 from "../../assets/img/project-img3.png";
+import projImg1 from "../../assets/img/Pokemon.png";
+import projImg2 from "../../assets/img/GPT.png";
+import projImg3 from "../../assets/img/Agendament.png";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
 
 import '../../styles/projects.css';
@@ -13,35 +13,20 @@ import { useEffect } from 'react';
 
 const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "API REST Pokemon",
+      description: "API & Web Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Responsive Site",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Scheduling System",
+      description: "Database & Development",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    }
   ];
   
 
@@ -68,18 +53,18 @@ const Projects = () => {
             <Row>
             <div className='projectAnim'>
                 <Col size={12} >                
-                    <h2>Projects</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis unde blanditiis maxime quam voluptatibus laboriosam, tempore fuga molestiae nobis, dicta asperiores optio, ipsa ipsum quibusdam itaque. Omnis, nulla vel.</p>
+                    <h2>Projetos</h2>
+                    <p>Alguns projetos feitos por mim, tanto para treino quanto para utilização.</p>
                     <Tab.Container id="projects-tabs" className="project-T" defaultActiveKey="first">
                         <Nav variant="pills" defaultActiveKey="/home">
                         <Nav.Item>
-                            <Nav.Link eventKey="first">Tab One</Nav.Link>
+                            <Nav.Link eventKey="first">Primeira aba</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                            <Nav.Link eventKey="second">Segunda Aba</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="third">Tab Three</Nav.Link>
+                            <Nav.Link eventKey="third">Terceira Aba</Nav.Link>
                         </Nav.Item>
                         </Nav>
                         <Tab.Content>

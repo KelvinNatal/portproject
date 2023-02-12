@@ -2,7 +2,6 @@ import Carousel from 'react-multi-carousel';
 import { Container, Row, Col } from 'react-bootstrap';
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 
@@ -39,23 +38,31 @@ const Skills = () => {
                         <h2>
                             Skills
                         </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br></br>Corrupti magni officiis, eum cupiditate quidem tempora. Repellendus, iusto. Rem cupiditate cum quaerat, distinctio facere numquam nisi voluptatibus iusto earum, quae odio.</p>
+                        <p>Deixo abaixo algumas de minhas linguagens que mais domino e venho aperfeiçoando.</p>
                         <Carousel responsive={responsive} infinie={true} className="skill-slider">
                             <div className='item'>
                                 <img src={meter1} alt="web"/>
-                                <h5>Web Development</h5>
+                                <h5>HTML</h5>
                             </div>
                             <div className='item'>
-                                <img src={meter2} alt="brand"/>
-                                <h5>Brand Identity</h5>
+                                <img src={meter1} alt="brand"/>
+                                <h5>CSS</h5>
                             </div>
                             <div className='item'>
-                                <img src={meter3} alt="design"/>
-                                <h5>Logo Design</h5>
+                                <img src={meter1} alt="design"/>
+                                <h5>Javascript</h5>
                             </div>
                             <div className='item'>
                                 <img src={meter1} alt="dev"/>
-                                <h5>Web Development</h5>
+                                <h5>React JS</h5>
+                            </div>
+                            <div className='item'>
+                                <img src={meter2} alt="dev"/>
+                                <h5>PHP</h5>
+                            </div>
+                            <div className='item'>
+                                <img src={meter2} alt="dev"/>
+                                <h5>My Sql</h5>
                             </div>
                         </Carousel>
                      </div>

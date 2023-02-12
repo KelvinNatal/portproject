@@ -46,17 +46,17 @@ const NavBar = () => {
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={(() => onUpdateActiveLink('home'))}>Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={(() => onUpdateActiveLink('skills'))}>Skills</Nav.Link>
-            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={(() => onUpdateActiveLink('projects'))}>Projects</Nav.Link>
+            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={(() => onUpdateActiveLink('projects'))}>Projetos</Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className='social-icon'>
-                <a href="www.google.com.br"><img src={navIcon1} alt=""/></a>
-                <a href="www.google.com.br"><img src={navIcon2} alt=""/></a>
-                <a href="www.google.com.br"><img src={navIcon3} alt=""/></a>
+                <a href="https://linkedin.com/in/kelvin-natal-40ba681a1/"><img src={navIcon1} alt=""/></a>
+                <a href="https://www.facebook.com/kelvin.natal.3/"><img src={navIcon2} alt=""/></a>
+                <a href="https://www.instagram.com/kelvinatal/"><img src={navIcon3} alt=""/></a>
             </div>            
           </span>
           <div className="botaoDiv">
-            <button id="butAl" onClick={() => console.log('Connect')}><span>Lets Connect</span></button>
+            <a href="https://linkedin.com/in/kelvin-natal-40ba681a1/"><button id="butAl" onClick={() => console.log('Connect')}><span>Vamos Conectar</span></button></a>
           </div>
         </Navbar.Collapse>
       </Container>

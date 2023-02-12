@@ -15,9 +15,9 @@ const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="www.google.com.br"><img src={navIcon1} alt="Icon" /></a>
-              <a href="www.google.com.br"><img src={navIcon2} alt="Icon" /></a>
-              <a href="www.google.com.br"><img src={navIcon3} alt="Icon" /></a>
+            <a href="https://linkedin.com/in/kelvin-natal-40ba681a1/"><img src={navIcon1} alt=""/></a>
+                <a href="https://www.facebook.com/kelvin.natal.3/"><img src={navIcon2} alt=""/></a>
+                <a href="https://www.instagram.com/kelvinatal/"><img src={navIcon3} alt=""/></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>

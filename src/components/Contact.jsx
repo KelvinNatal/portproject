@@ -68,7 +68,7 @@ const Contact = () => {
                     <img src={contactImg} className="animImage" alt="im"/>
                 </Col>
                 <Col md={6}>
-                    <h2>Het In Touch</h2>
+                    <h2>Entre em contato</h2>
                     <form onSubmit={handleSubmit}>
                         <Row>
                             <Col sm={6} className="px-1">
